@@ -11,7 +11,7 @@ public class Main {
         printSubstrings(string2);
     }
 
-    static public void printSubstrings(String string) {
+    private static void printSubstrings(String string) {
         System.out.print(string.charAt(0));
         for (int i = 1; i < string.length(); i++) {
 
